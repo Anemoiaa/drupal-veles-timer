@@ -1,0 +1,16 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+
+function veles_timer_theme() {
+  return [
+    'veles_timer' => [
+      'variables' => [
+        'path_to_images' => ''
+      ]
+    ]
+  ];
+}
+
+

@@ -1,0 +1,14 @@
+timer:
+  css:
+    theme:
+      css/veles_timer.css: {}
+  js:
+    /libraries/jquery.countdown/js/jquery.plugin.min.js: { type: external, minified: true }
+    /libraries/jquery.countdown/js/jquery.countdown.js: { type: external, minified: true }
+    js/veles_timer_init.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+

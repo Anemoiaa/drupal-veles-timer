@@ -1,0 +1,7 @@
+name: Veles Timer
+description: Реализует таймер обратного отсчета
+core_version_requirement: ^9 || ^10
+package: 'Veles'
+type: module
+dependencies:
+- block
